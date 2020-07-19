@@ -1,9 +1,10 @@
 {
-    "name": "appstract/laravel-stock",
-    "description": "Keep stock for Eloquent models",
+    "name": "mhadaniya/laravel-stock",
+    "description": "Keep stock for Eloquent models - added price field",
     "keywords": [
         "appstract",
-        "laravel-stock"
+        "laravel-stock",
+        "mhadaniya"
     ],
     "homepage": "https://github.com/appstract/laravel-stock",
     "license": "MIT",
@@ -12,6 +13,12 @@
             "name": "Gijs Jorissen",
             "email": "gijs@appstract.nl",
             "homepage": "https://appstract.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "Mario H. Adaniya",
+            "email": "mhadaniya@gmail.com",
+            "homepage": "https://mhadaniya.github.io",
             "role": "Developer"
         }
     ],

@@ -102,6 +102,7 @@ trait HasStock
         $createArguments = collect([
             'amount' => $amount,
             'description' => Arr::get($arguments, 'description'),
+            'price' => Arr::get($arguments, 'price'),
         ])->when($reference, function ($collection) use ($reference) {
             return $collection
                 ->put('reference_type', $reference->getMorphClass())

@@ -13,7 +13,7 @@ class AddPriceColumnStockMutationsTable extends Migration
      */
     public function up()
     {
-        Schema::tables(config('stock.table'), function (Blueprint $table) {
+        Schema::table(config('stock.table'), function (Blueprint $table) {
             $table->integer('price')->default(0);
         });
     }
